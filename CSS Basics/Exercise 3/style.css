@@ -1,0 +1,21 @@
+.ynet{
+    background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032019/untitled-1_279.png?5oyQskhvZvOnVa1VfeqfqHn3Se.b_EYa&itok=CF8loh5g");
+    background-size: cover;
+    width: 250px;
+    height:300px;
+    display: inline-block;
+}
+.youtube{
+    background-image: url("https://t4.ftcdn.net/jpg/07/37/98/99/240_F_737989984_yqhTN9GhvLeuUiLjUp9MSe1IacGNXlsl.jpg");
+    background-size: cover;
+    width: 250px;
+    height:300px;
+    display: inline-block;
+}
+.facebook{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/960px-Facebook_f_logo_%282021%29.svg.png?_=20210818083032");
+    background-size: cover;
+    width: 250px;
+    height:300px;
+    display: inline-block;
+}
