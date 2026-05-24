@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Contact Us</h1>
+     <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label><input type="text" placeholder="Your Name"><br><br>   
+        <label for="email">Email:</label><input type="email" placeholder="Your Email"><br><br>
+        <label for="Phone">Phone:</label><input type="tel" placeholder="Your Phone"><br><br>
+     </fieldset>
+
+     <fieldset>
+        <legend> Message Details</legend>
+        <label for ="subject">Subject:</label><select><option value="general">General Inquiry</option><option value="support">Support Request</option></select> 
+        <br><br>
+        <lable for-"priority">Priority:</lable><input type="radio" name="priority" value="low">Low<input type="radio" name="priority" value="medium">Medium<input type="radio" name="priority" value="high">High
+        <br><br>  
+        <label for="message">Message:</label><br><textarea placeholder="Your Message"></textarea><br><br>  
+     </fieldset>
+       <fieldset>
+        <legend>Prefrences</legend>
+        <input type="checkbox" name="newsletter" >Subscribe to newsletter<br><br>
+        <label for ="contact Method">contact Method</label><select><option value="Email"> Email</em></option><option value="phone">phone</option></select> 
+       </fieldset>
+
+       <br>
+       <button type="submit">Send Message</button> <button type="reset">Reset</button>
+       </form>
+</body>
+</html>
