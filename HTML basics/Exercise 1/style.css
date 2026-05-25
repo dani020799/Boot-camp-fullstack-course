@@ -1,0 +1,19 @@
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+h2{
+    color :aqua;
+    border-bottom: 3px solid aqua;
+
+}
+.highlight-purple{
+    color: purple;
+    font-weight: bold;
+}
+.highlight-green{
+    color: green;
+    font-style: italic;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(30, 226, 233);
+}
+h1 {
+    text-align: center;
+    color:orange;
+    padding: 40px;
+    
+
+}
+
+h2{
+    color:red;
+    border-bottom: 3px solid red;
+}
+h3 {
+    color :blue;
+}
+
+b {
+    color: yellow;
+}
+a{
+    color:green;
+}
