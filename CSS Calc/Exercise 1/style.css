@@ -1,0 +1,19 @@
+.container {
+    width: 500px;
+    height:70px;
+    display: flex;
+}
+
+.left {
+    width: calc((100% - 50px));
+    height: 100%;
+    background-color: pink;
+    display: inline-block;
+}
+
+.right {
+    width: 50px;
+    height: 100%;
+    background-color: rgb(236, 24, 60);
+    display: inline-block;
+}
