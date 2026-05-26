@@ -1,0 +1,54 @@
+.container
+{
+    width:800px;
+    height:600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid pink;
+}
+
+.top{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     border-bottom: 5px solid pink;
+}
+
+.bottom{
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.line{
+    width: 80px;
+    height: 15px;
+    background-color: pink;
+    margin: 10px;
+}
+.lines{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+.circle {
+    width:150px;
+    height:150px;
+    background-color: pink;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+p{
+    width: 70%;
+    text-align: center;
+}
+
+

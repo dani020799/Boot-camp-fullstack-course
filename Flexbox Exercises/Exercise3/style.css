@@ -1,0 +1,27 @@
+.container
+{
+    width:600px;
+    height:400px;
+    border:1px solid black;
+    display:flex;
+}
+
+.left,
+.right {
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:1px solid black;
+}
+.circle {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color:blue;
+}
+
+p {
+    width:200px;
+    
+}

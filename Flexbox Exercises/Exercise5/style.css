@@ -1,0 +1,57 @@
+.container {
+    width:600px;
+    height:600px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column; 
+    
+
+}
+
+.top {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid pink;
+}
+
+p {
+    width:70%;
+}
+
+.bottom{
+    height: 75%;
+    display: flex;
+    margin-top: 50px;
+    align-items: flex-start;
+     justify-content: center;
+    
+}
+.boxes {
+    margin-top :40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.big-box{
+    width: 190px;
+    height: 190px;
+    background-color: blue;
+    margin-right: 20px;
+}
+
+.small-boxes {
+    display:flex;
+    flex-wrap: wrap;
+    width:200px;
+    gap:10px
+}
+
+.small-box{
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+}
