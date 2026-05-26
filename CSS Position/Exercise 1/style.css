@@ -1,0 +1,39 @@
+.container
+{ 
+    position: relative;
+    width:500px;
+    margin:auto;
+}
+
+.container img{
+    width:100%;
+    display: block;
+}
+.container div
+{
+    position: absolute;
+    font-size:20px;
+    font-weight:bold;
+    color: aliceblue;
+
+}
+.top-left
+{
+    top: 8px;
+    left: 16px;
+}
+.top-right
+{
+    top: 8px;
+    right: 16px;
+}
+.bottom-left
+{
+    bottom: 8px;
+    left: 16px;
+}               
+.bottom-right
+{
+    bottom: 8px;
+    right: 16px;
+}
