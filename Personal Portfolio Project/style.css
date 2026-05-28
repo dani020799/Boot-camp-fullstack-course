@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.container {
+         max-width: 1200px;
+         width: 90%;
+         margin:auto;
+}
+
+section {
+    padding: 4rem 0;
+
+}
+h1 {
+    font-size: 2.5rem;
+    
+}
+h2 {
+    font-size: 2rem;
+    
+}
+
+p
+{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #9ca3af;
+}
+
+header {
+    height:64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color:  white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);;
+}
+
+
+header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    color:#2663ee;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+nav {
+    display: flex;
+    gap: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: #4a5568;
+
+}
+.hamburger {
+    display: none;
+}
+
+#home .container,
+#about .container,
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.home-text,
+.about-text,
+form {
+    flex:1;
+}
+
+.home-text
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.home-text p
+{
+    width:70%;
+}
+.home-image {
+    width: 260px;
+    height:260px;
+    border-radius: 50px;
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #64748b;
+}
+.get-in-touch,
+form button {
+    display: inline-block;
+    background-color: #2663ee;
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    border:none;
+}
+.get-in-touch
+{
+    width: 25%;
+}
+#projects {
+    background-color: #f8fafc;
+}
+
+#projects h2,
+#contact h2 {
+    text-align: center;
+}
+
+.project-container{
+    display: flex;
+    gap: 2rem;
+    align-items: stretch;
+}
+.project-card
+{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image {
+   
+    height: 200px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+.project-1
+{
+    background-image: url(img/nmdb.png);
+}
+
+.project-2
+{
+    background-image: url(img/deep.png);
+
+}
+.project-3
+{
+    background-image: url(img/youtube.png);
+}
+
+.project-card h3,
+.project-card p
+ {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0 1.5rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+#home
+{
+      background-color: #f1f5f9;
+}
+
+
+#about {
+    background-color: white; 
+}
+#about p  ,.skills div{
+    font-size: 1rem;
+}
+.about-text p {
+    max-width: 600px;
+}
+
+.project-card button {
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    margin-top: auto;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info a {
+    /*color: #64748b; */
+    text-decoration: none;
+}
+
+.social {
+    display: inline-flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #2663ee;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 0.7rem;
+    transition: 0.3s;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
+.get-in-touch:hover,
+form button:hover {
+    background-color: #1d4ed8;
+}
+.project-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    
+    
+}
+.project-content *
+{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    
+    
+}
+
+.project-content a {
+   
+    padding-top: 1rem;
+    margin-right: 10rem;
+}
+
+
+.project-content h3 {
+    font-family: Inter;
+    font-style: bold;
+    font-size: 11.8;
+}
+
+.project-button {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: auto;
+}
+
+
+.home-image
+{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/profilejpeg) ;
+}
