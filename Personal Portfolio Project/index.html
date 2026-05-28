@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>My Portfolio</title>
 </head>
 <body>
        <div class="page" >
         <header>
              <div class="logo">My Portfolio</div>
             <nav>
-                   <a href="#Home">Home</a>
+                   <a href="#home">Home</a>
                    <a href="#about">About Me</a>
                    <a href="#projects">Projects</a>
                    <a href="#contact">Contact</a>
             
             </nav>
+            <div class="hamburger" aria-label="Open menu" >☰</div>
         </header>
 
-        <section id="Home">
+        <section id="home">
+            <div class="container">
             <div class="home-text">
             <h1>Full-Stack Developer</h1>
             <p>I create beautiful and functional web experiences using modern
          technologies. Passionate about clean code and user-centered
               design.</p>
-            <button class="get-in-touch">Get In Touch</button>
+            <a class="get-in-touch" href="#contact">Get In Touch</a>
             </div>
-            <div class="Home-image">
+            <div class="home-image">
                  Image
+            </div>
             </div>
         </section>
 
         <section id="about">
+            <div class="container">
             <div class="about-text">
             <h2>About Me</h2>
             <p>I'm a full-stack developer with a passion for creating dynamic and responsive web applications. With experience in both front-end and back-end technologies, I enjoy crafting seamless user experiences and writing clean, efficient code.</p>
@@ -45,12 +49,15 @@
                 <div>NodeJS</div>
                 <div>MongoDB</div>
             </div>
+            </div>
+            
         </section>
 
         <section id="projects"> 
+             <div class="container">
             <h2>My projects</h2>
             <div class="project-container">
-                <div calss="project-card">
+                <div class="project-card">
                     <div class="project-image">
                         image
                     </div>
@@ -58,15 +65,8 @@
                     <p> Online store built with HTML, CSS and JavaScript.</p>
                     <button>View Project</button>
                 </div>
-                <div calss="project-card">
-                    <div class="project-image">
-                        image
-                    </div>
-                    <h3> E-commerce Website</h3>
-                    <p> Online store built with HTML, CSS and JavaScript.</p>
-                    <button>View Project</button>
-                </div>
-                <div calss="project-card">
+               
+                <div class="project-card">
                     <div class="project-image">
                         image
                     </div>
@@ -74,7 +74,7 @@
                     <p>  Weather application with forecast information.</p>
                     <button>View Project</button>
                 </div>
-                <div calss="project-card">
+                <div class="project-card">
                     <div class="project-image">
                         image
                     </div>
@@ -83,9 +83,11 @@
                     <button>View Project</button>
                 </div>
             </div>
+            </div>
         </section>
 
         <section id="contact">
+             <div class="container">
               <h2>Get in Touch</h2>
               <div class="contact-container">
                    <form >
@@ -102,28 +104,29 @@
                    <div class="contact-info">
                       <h3>Contact Information</h3>
                       <p>
-                         john.doe@email.com
+                        <a href="mailto:john.doe@email.com">john.doe@email.com</a>
                       </p>
                       <p>
-                        +1 (655) 123-456
+                        <a href="tel:+1655123456">+1 (655) 123-456</a>
                       </p>
                       <p>
                         New York, NY
                       </p>
                       <div class="button-section">
-                        <button>
-                            in
-                        </button>
-                        <button>
-                            Ω
-                        </button>
-                        <button>
-                            x
-                        </button>
+                        
+                        <a class="social" href="#">in</a>
+                        
+                        <a class="social" href="#">Ω</a>
+                        
+                        <a class="social" href="#">x</a>
                       </div>
                    </div>
               </div>
+              </div>
         </section>
+        <footer>
+            © 2024 John Doe.
+        </footer>
         </div>
 </body>
 </html>
