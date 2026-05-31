@@ -13,6 +13,14 @@ body {
          margin:auto;
 }
 
+.menu-wrapper {
+    position: relative;
+}
+
+.mobile-nav {
+    display: none;
+}
+
 section {
     padding: 4rem 0;
 
@@ -118,7 +126,7 @@ form button {
 }
 .get-in-touch
 {
-    width: 25%;
+    width: fit-content;
 }
 #projects {
     background-color: #f8fafc;
@@ -211,6 +219,7 @@ footer {
     max-width: 600px;
 }
 
+/*
 .project-card button {
     background-color: #f59e0b;
     color: white;
@@ -220,6 +229,7 @@ footer {
     margin-bottom: 1.5rem;
     margin-top: auto;
 }
+    */
 
 .contact-info {
     flex: 1;
@@ -242,6 +252,7 @@ footer {
     text-decoration: none;
     margin-right: 0.7rem;
     transition: 0.3s;
+    
 }
 
 .social:hover {
@@ -261,25 +272,22 @@ form button:hover {
     
     
 }
+
+/*
 .project-content *
 {
     margin-top: 1rem;
     margin-right: 1rem;
     
     
+    
 }
+*/
 
-.project-content a {
-   
-    padding-top: 1rem;
-    margin-right: 10rem;
-}
 
 
 .project-content h3 {
-    font-family: Inter;
-    font-style: bold;
-    font-size: 11.8;
+     margin: 0 0 1rem 0;
 }
 
 .project-button {
@@ -290,8 +298,14 @@ form button:hover {
     border-radius: 6px;
     display: inline-block;
     margin-top: auto;
+    width: fit-content;
 }
 
+.project-content p
+{
+    flex: 1;
+     margin: 0 0 1rem 0;
+}
 
 .home-image
 {
@@ -300,4 +314,139 @@ form button:hover {
     background-size: cover;
     background-position: center;
     background-image: url(img/profilejpeg) ;
+}
+
+
+/*
+.github{
+    background-image: url(img/github.png);
+}
+.x 
+{
+    background-image: url(img/twitter.png);
+}
+
+.linkdin
+{
+    background-image: url(img/linkedin.png);
+}
+
+*/
+
+@media (max-width: 768px) {
+
+    header  {
+
+        padding: 0 1rem;
+    }
+
+    nav {
+        display: none;
+     }
+
+    .hamburger  {
+        display: block;
+
+        font-size: 1.8rem;
+    }
+
+    section 
+    {
+        padding: 3rem 0;
+    }
+
+    #home .container,
+    #about .container,
+    .contact-container,
+    .project-container  {
+        flex-direction: column;
+
+        text-align: center;
+        
+        gap: 2rem;
+    }
+
+    .home-text,
+    .about-text,
+    form,
+    .contact-info,
+    .skills {
+        width: 100%;
+    }
+
+    .home-text {
+        align-items: center;
+    }
+
+    .home-text p {
+        width: 100%;
+    }
+
+    .home-image {
+        width: 200px;
+
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-image {
+        height: 220px;
+    }
+
+    .project-content {
+        margin-left: 0;
+
+        text-align: left;
+    }
+
+    .project-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    form button {
+        width: 100%;
+    }
+    mobile-nav {
+    display: none;
+}
+
+.menu-wrapper:hover .mobile-nav {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 40px;
+    right: 0;
+
+    background-color: white;
+
+    padding: 1rem;
+
+    width: 220px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    z-index: 10;
+}
+.mobile-nav a {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
 }
