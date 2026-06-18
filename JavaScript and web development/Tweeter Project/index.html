@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweeter</title>
+    <link rel="stylesheet" href="stle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tweeter</h1>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="input" placeholder="What's happening?!" rows="3"></textarea>
+                <button id="twit-button" class="twit-button">Twit</button>
+            </div>
+
+            <div id="posts" class="posts-section"></div>
+        </main>
+    </div>
+
+    <script src="model.js"></script>
+    <script src="render.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
